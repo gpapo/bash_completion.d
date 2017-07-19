@@ -2,13 +2,12 @@
 
 _chrome_completion() {
   local cur=${COMP_WORDS[COMP_CWORD]}
-  local options="--help --app="
+  local options="--user-data-dir --app --incognito --proxy-server --no-proxy-server\
+  --proxy-autodetect --proxy-pac-url --password-store --version"
 
   if [[ "$cur" == -* ]] ; then
     COMPREPLY=( $(compgen -W "$options" -- $cur) )
   fi
 }
 
-# chrome is an alias for google-chrome
-# complete ... google-chrome seems not to work
-complete -o default -o nospace -F _chrome_completion chrome
+complete -o default -o nospace -F _chrome_completion google-chrome
