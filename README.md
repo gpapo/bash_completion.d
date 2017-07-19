@@ -9,9 +9,8 @@
 ## Functions
 
 * ansi - https://github.com/fidian/ansi
-* apm -
-* apt-history -
-* chrome -
-* detox -
-* tldr -
-* up -
+* apm - https://github.com/atom/apm
+* apt-history - https://linuxcommando.blogspot.it/2008/08/how-to-show-apt-log-history.html
+* chrome - https://www.google.it/chrome/browser/desktop/index.html
+* detox - http://detox.sourceforge.net/
+* tldr - https://github.com/tldr-pages/tldr

@@ -4,12 +4,10 @@
 # Source to use: [ -f /path/to/up.sh ] && . /path/to/up.sh
 
 _up_completion() {
-	local p
-  local w
-  p="$(dirname $PWD)"
-  w="${COMP_WORDS[COMP_CWORD]}"
+  local path="$(dirname $PWD)"
+  local cur="${COMP_WORDS[COMP_CWORD]}"
 
-	COMPREPLY=( $(IFS=';' compgen -S/ -W "${p//\//;}" -- "$w") )
+	COMPREPLY=( $(IFS=';' compgen -S/ -W "${path//\//;}" -- "$cur") )
 }
 
 # tab-completion
