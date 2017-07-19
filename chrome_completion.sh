@@ -9,4 +9,6 @@ _chrome_completion() {
   fi
 }
 
+# chrome is an alias for google-chrome
+# complete ... google-chrome seems not to work
 complete -o default -o nospace -F _chrome_completion chrome
