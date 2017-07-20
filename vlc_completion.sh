@@ -114,3 +114,8 @@ _vlc() {
 }
 
 complete -F _vlc vlc
+complete -F _vlc qvlc
+complete -F _vlc svlc
+complete -F _vlc nvlc
+complete -F _vlc rvlc
+complete -F _vlc cvlc
