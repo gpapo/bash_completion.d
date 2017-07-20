@@ -14,3 +14,4 @@
 * chrome - https://www.google.it/chrome/browser/desktop/index.html
 * detox - http://detox.sourceforge.net/
 * tldr - https://github.com/tldr-pages/tldr
+* vlc - https://github.com/videolan/vlc
